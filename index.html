@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Título do Site Aqui</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- inicio do cabeçalho -->
+      <div class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-ligh">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/logo-azul 1.png"
+                alt=""
+                class="d-inline-block align-text-top"
+              />
+            </a>
+            <div clas="d-flex justify-content-end">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gráficos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Matérias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Grupo de Apoio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- fim do cabeçalho -->
+    <button
+      onclick="topFunction()"
+      id="scroll-button"
+      title="Vá para o início da página"
+      style="display: none"
+      wfd-invisible="true"
+    >
+      <i class="ri-arrow-up-circle-line"></i>
+    </button>
+
+    <!-- banner começo -->
+    <div class="header__banner">
+      <div class="header__title-subtitle">
+        <h1>Grupo de Apoio à Pessoa com Depressão</h1>
+        <p class="padding-top30">
+          Somos um grupo de apoio destinado a ajudar quem precisa e estimular as
+          pessoas a procurar e aceitar ajuda para superar a depressão. Em nossa
+          página, temos diversas informações sobre depressão, conteúdos com
+          gráficos entre muitos outros materiais que podem ajudar quem está
+          passando pelo problema e também a fomentar a discussão deste assunto
+          na sociedade.
+        </p>
+      </div>
+      <img src="assets/banner-header.svg" alt="..." />
+    </div>
+
+    <!-- banner fim-->
+
+    <main>
+      <!-- GRÀFICOS -->
+      <div class="graficos__barra-superior">
+        <h2 class="graficos__title">Gráficos</h2>
+        <img src="assets/megafone.png" />
+      </div>
+
+      <div class="dashboard">
+        <div class="dashboard__titulo">
+          <h3>Grupos sociais com maior número de diagnósticos de depressão</h3>
+        </div>
+
+        <div class="dashboard__graficos">
+          <img src="assets/horizontal_bar_situacao_trabalho 1.png" alt="" />
+          <img src="assets/pie_masc_fem_percent 1.png" alt="" />
+          <img src="assets/bar_h_idade 1.png" alt="" />
+          <img src="./assets/grafico-04.svg" alt="" />
+
+          <!-- <img id="img-topo" src="assets/cima.png" alt="" /> -->
+        </div>
+      </div>
+
+      <!-- Utilidade Pública -->
+      <div class="graficos__barra-superior">
+        <h2 class="graficos__title">Utilidade Pública</h2>
+        <img src="assets/megafone.png" />
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <p>Idades mais afetadas</p>
+            <p>60 a 64 anos</p>
+          </li>
+
+          <li>
+            <!--Esperando conteúdo-->
+            <p>Idades mais afetadas</p>
+            <p>60 a 64 anos</p>
+          </li>
+        </ul>
+      </div>
+
+      <img src="assets/grafico_barra.png" />
+      <div class="div-barra-titulo">
+        <h2>Título</h2>
+        <h3>Informações</h3>
+      </div>
+
+      <div>
+        <h2>Um título aqui</h2>
+        <ul class="materias">
+          <li>
+            <h2>Materias</h2>
+            <p>Informações resumidas aqui</p>
+          </li>
+
+          <li>
+            <h2>Materias</h2>
+            <p>Informações resumidas aqui</p>
+          </li>
+
+          <li>
+            <h2>Materias</h2>
+            <p>Informações resumidas aqui</p>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Um título aqui</h2>
+        <ul class="materias">
+          <li>
+            <img src="assets/image 1.png" alt="" />
+            <h2>ADEB</h2>
+            <p>Associação de Apoio a Doentes Depressivos e Bipolares</p>
+            <p>IPSS de utilidade pública com fins de Saúde e Sociais.</p>
+          </li>
+
+          <li>
+            <img src="assets/image 2.png" alt="" />
+            <h2>CVV</h2>
+            <p>Centro de Valorização da Vida</p>
+            <p>
+              Realiza apoio emocional e prevenção do suicídio, atendendo
+              voluntária e gratuitamente todas as pessoas que querem e precisam
+              conversar.
+            </p>
+          </li>
+
+          <li>
+            <h2>Card Likn</h2>
+            <p>Informações resumidas aqui</p>
+          </li>
+
+          <li>
+            <h2>Card Likn</h2>
+            <p>Informações resumidas aqui</p>
+          </li>
+        </ul>
+      </div>
+
+      <img src="assets/woman 1.png" />
+    </main>
+
+    <footer>
+      <img src="assets/logo-azul 2.png" alt="" />
+      <h2>Atribuições</h2>
+      <ul>
+        <li>
+          <a href="https://br.freepik.com/vetores/pessoas"
+            >Pessoas vetor criado por pch.vector - br.freepik.com</a
+          >
+        </li>
+        <li>
+          <a href="https://br.freepik.com/vetores/pessoas"
+            >Pessoas vetor criado por pch.vector - br.freepik.com</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=29270&t=resultados"
+            >IBGE - Pesquisa Nacional de Saúde</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
