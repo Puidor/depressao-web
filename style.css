@@ -15,14 +15,18 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
-/********************** HEADER **********************/
+/*HEADER  =============================== */
 .nav-link {
   color: #2c2e43;
   font-size: 20px;
 }
+.navbar > .container,
+.navbar > .container-fluid {
+  flex-wrap: initial;
+}
 
 .cabecalho {
-  padding: 0 5rem;
+  padding: 2rem 5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
@@ -33,6 +37,7 @@ body {
   justify-content: center;
   gap: 5rem;
   padding: 0 5rem;
+  margin-top: 5rem;
 }
 .header__banner img {
   width: 70%;
@@ -53,7 +58,7 @@ body {
   font-weight: 400;
 }
 
-/********************** Gráficos **********************/
+/*Gráficos  =============================== */
 
 .grupos-title {
   text-align: center;
@@ -104,13 +109,13 @@ body {
 
 .dashboard__graficos {
   text-align: center;
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-bottom: 5rem;
 }
 
 .dashboard__graficos img {
-  width: 40%;
+  width: 45%;
   margin-right: 3rem;
   margin-top: 3rem;
 }
@@ -196,7 +201,7 @@ body {
   color: rgba(44, 46, 67, 1);
 }
 
-/********************** FOOTER **********************/
+/*Footer  =============================== */
 footer {
   display: flex;
   justify-content: space-around;
@@ -218,6 +223,7 @@ footer {
   font-size: 1rem;
   margin-left: 2rem;
 }
+
 .atribuicoes {
   text-align: left;
   padding: 0;

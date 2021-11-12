@@ -1,0 +1,73 @@
+/* Telas até 768px */
+@media (max-width: 768px) {
+  /*HEADER  =============================== */
+  .cabecalho {
+    padding: 2rem 0;
+  }
+  .gapd-logotipo {
+    width: 100%;
+  }
+
+  .header__banner {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .header__title-subtitle {
+    width: 80%;
+  }
+
+  /*Gráficos  =============================== */
+  .graficos__barra-superior h2 {
+    font-size: 24px;
+  }
+
+  .graficos__barra-superior img {
+    width: 60px;
+    height: 100px;
+  }
+
+  .dashboard__titulo {
+    width: 95%;
+  }
+
+  .dashboard__graficos img {
+    width: 95%;
+  }
+
+  .dashboard__graficos img {
+    margin-right: initial;
+  }
+
+  /*Footer  =============================== */
+  footer {
+    flex-direction: column;
+    height: initial;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__esquerdo,
+  .atribuicoes {
+    width: 100%;
+  }
+
+  .footer__esquerdo img {
+    margin: 2rem 0;
+  }
+
+  .footer__esquerdo {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .footer__direito {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .footer__direito img {
+    width: 90%;
+  }
+}
