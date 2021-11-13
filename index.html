@@ -1,264 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GAPD - Grupo de Apoio à Pessoa com Depressão</title>
 
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GAPD - Grupo de Apoio à Pessoa com Depressão</title>
 
-    <!-- BOOTSTRAP -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- ESTILO DO SITE -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-mobile.css" />
-  </head>
-  <body>
-    <header>
-      <!--********************* inicio do cabeçalho *********************-->
-      <div class="cabecalho">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="assets/logo-azul 1.png"
-                alt=""
-                class="d-inline-block align-text-top gapd-logotipo"
-              />
-            </a>
-            <div clas="d-flex justify-content-end">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Gráficos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Matérias</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Grupo de Apoio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-                </ul>
-              </div>
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- ESTILO DO SITE -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-mobile.css" />
+</head>
+
+<body>
+  <header>
+    <!--********************* inicio do cabeçalho *********************-->
+    <div class="cabecalho">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo-azul 1.png" alt="" class="d-inline-block align-text-top gapd-logotipo" />
+          </a>
+          <div clas="d-flex justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#index-graficos">Gráficos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#index-materias">Matérias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#index-gruposdeapoio">Grupo de Apoio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#index-contato">Contato</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </nav>
-      </div>
-    </header>
-    <!-- fim do cabeçalho -->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- fim do cabeçalho -->
 
-    <button
-      onclick="topFunction()"
-      id="scroll-button"
-      title="Vá para o início da página"
-      style="display: none"
-      wfd-invisible="true"
-    >
-      <i class="ri-arrow-up-circle-line"></i>
-    </button>
+  <button onclick="topFunction()" id="scroll-button" title="Vá para o início da página" style="display: none"
+    wfd-invisible="true">
+    <i class="ri-arrow-up-circle-line"></i>
+  </button>
 
-    <!--********************* banner começo *********************-->
-    <div class="header__banner">
-      <div class="header__title-subtitle">
-        <h1>Grupo de Apoio à Pessoa com Depressão</h1>
-        <p class="padding-top30">
-          Somos um grupo de apoio destinado a ajudar quem precisa e estimular as
-          pessoas a procurar e aceitar ajuda para superar a depressão. Em nossa
-          página, temos diversas informações sobre depressão, conteúdos com
-          gráficos entre muitos outros materiais que podem ajudar quem está
-          passando pelo problema e também a fomentar a discussão deste assunto
-          na sociedade.
-        </p>
-      </div>
-      <img src="assets/banner-header.svg" alt="..." />
+  <!--********************* banner começo *********************-->
+  <div class="header__banner">
+    <div class="header__title-subtitle">
+      <h1>Grupo de Apoio à Pessoa com Depressão</h1>
+      <p class="padding-top30">
+        Somos um grupo de apoio destinado a ajudar quem precisa e estimular as
+        pessoas a procurar e aceitar ajuda para superar a depressão. Em nossa
+        página, temos diversas informações sobre depressão, conteúdos com
+        gráficos entre muitos outros materiais que podem ajudar quem está
+        passando pelo problema e também a fomentar a discussão deste assunto
+        na sociedade.
+      </p>
+    </div>
+    <img src="assets/banner-header.svg" alt="..." />
+  </div>
+
+  <!-- banner fim-->
+
+  <main>
+    <!--********************* GRÀFICOS *********************-->
+    <div class="graficos__barra-superior">
+      <h2 id="index-graficos" class="graficos__title">Gráficos</h2>
+      <img src="assets/megafone.png" />
     </div>
 
-    <!-- banner fim-->
-
-    <main>
-      <!--********************* GRÀFICOS *********************-->
-      <div class="graficos__barra-superior">
-        <h2 class="graficos__title">Gráficos</h2>
-        <img src="assets/megafone.png" />
+    <div class="dashboard">
+      <div class="dashboard__titulo">
+        <h3>Grupos sociais com maior número de diagnósticos de depressão</h3>
       </div>
 
-      <div class="dashboard">
-        <div class="dashboard__titulo">
-          <h3>Grupos sociais com maior número de diagnósticos de depressão</h3>
-        </div>
+      <div class="dashboard__graficos">
+        <img src="./assets/grafico_01.png" alt="Gráfico 01" />
+        <img src="./assets/grafico_02.png" alt="Gráfico 02" />
+        <img src="./assets/grafico_03.png" alt="Gráfico 03" />
+        <img src="./assets/grafico-04.svg" alt="Gráfico 04" />
 
-        <div class="dashboard__graficos">
-          <img src="./assets/grafico_01.png" alt="Gráfico 01" />
-          <img src="./assets/grafico_02.png" alt="Gráfico 02" />
-          <img src="./assets/grafico_03.png" alt="Gráfico 03" />
-          <img src="./assets/grafico-04.svg" alt="Gráfico 04" />
-
-          <!-- <img id="img-topo" src="assets/cima.png" alt="" /> -->
-        </div>
+        <!-- <img id="img-topo" src="assets/cima.png" alt="" /> -->
       </div>
+    </div>
 
-      <!--********************* Utilidade Pública *********************-->
-      <div class="graficos__barra-superior">
-        <h2 class="graficos__title">Utilidade Pública</h2>
-        <img src="assets/megafone.png" />
-      </div>
+    <!--********************* Utilidade Pública *********************-->
+    <div class="graficos__barra-superior">
+      <h2 class="graficos__title">Utilidade Pública</h2>
+      <img src="assets/megafone.png" />
+    </div>
 
-      <h1 class="grupos-title">Matérias</h1>
-      <section class="wrapper">
-        <div class="container-fostrap">
-          <div class="content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/depressao_card.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)"
-                        >
-                          Depressão
-                        </a>
-                      </h4>
-                      <p class="">
-                        Conheça as diferentes faces da doença e qual é o melhor
-                        tratamento para cada umaa
-                      </p>
-                    </div>
-                    <div class="card-read-more">
-                      <a
-                        href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)"
-                        class="btn btn-link btn-block"
-                      >
-                        Leia mais
+    <h1 id="index-materias" class="grupos-title">Matérias</h1>
+    <section class="wrapper">
+      <div class="container-fostrap">
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/depressao_card.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)">
+                        Depressão
                       </a>
-                    </div>
+                    </h4>
+                    <p class="">
+                      Conheça as diferentes faces da doença e qual é o melhor
+                      tratamento para cada umaa
+                    </p>
+                  </div>
+                  <div class="card-read-more">
+                    <a href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)" class="btn btn-link btn-block">
+                      Leia mais
+                    </a>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/tratamento_card.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"
-                        >
-                          Tratamentos
-                        </a>
-                      </h4>
-                      <p class="">
-                        Confira os tipos de consultas e tratamentos para a
-                        ansiedade e depressão.
-                      </p>
-                    </div>
-                    <div class="card-read-more">
-                      <a
-                        href="https://codepen.io/wisnust10/full/ZWERZK/"
-                        class="btn btn-link btn-block"
-                      >
-                        Leia mais
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/tratamento_card.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html">
+                        Tratamentos
                       </a>
-                    </div>
+                    </h4>
+                    <p class="">
+                      Confira os tipos de consultas e tratamentos para a
+                      ansiedade e depressão.
+                    </p>
+                  </div>
+                  <div class="card-read-more">
+                    <a href="https://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                      Leia mais
+                    </a>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-4">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/apoio_card.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        >
-                          Apoio
-                        </a>
-                      </h4>
-                      <p class="">
-                        A importância do apoio da família e amigos para quem
-                        sofre de depressão.
-                      </p>
-                    </div>
-                    <div class="card-read-more">
-                      <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        class="btn btn-link btn-block"
-                      >
-                        Leia mais
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/apoio_card.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                        Apoio
                       </a>
-                    </div>
+                    </h4>
+                    <p class="">
+                      A importância do apoio da família e amigos para quem
+                      sofre de depressão.
+                    </p>
+                  </div>
+                  <div class="card-read-more">
+                    <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
+                      class="btn btn-link btn-block">
+                      Leia mais
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--********************* Grupos de Apoios *********************-->
-      <h1 class="grupos-title">Grupos de Apoios</h1>
-      <section class="wrapper">
-        <div class="container-fostrap">
-          <div class="content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-3">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/g-apoio-adeb.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)"
-                        >
-                          ADEB
-                        </a>
-                      </h4>
-                      <p class="">
-                        Associação de Apoio a Doentes Depressivos e Bipolares
-                        IPSS de utilidade pública com fins Sociais. Buscamos
-                        apoiar e tratar pessoas que sofrem de doenças
-                        Depressivas.
-                      </p>
-                    </div>
-                    <!-- <div class="card-read-more">
+    <!--********************* Grupos de Apoios *********************-->
+    <h1 id="index-gruposdeapoio" class="grupos-title">Grupos de Apoios</h1>
+    <section class="wrapper">
+      <div class="container-fostrap">
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/g-apoio-adeb.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)">
+                        ADEB
+                      </a>
+                    </h4>
+                    <p class="">
+                      Associação de Apoio a Doentes Depressivos e Bipolares
+                      IPSS de utilidade pública com fins Sociais. Buscamos
+                      apoiar e tratar pessoas que sofrem de doenças
+                      Depressivas.
+                    </p>
+                  </div>
+                  <!-- <div class="card-read-more">
                       <a
                         href="https://pt.wikipedia.org/wiki/Depress%C3%A3o_(humor)"
                         class="btn btn-link btn-block"
@@ -266,29 +227,27 @@
                         Leia mais
                       </a>
                     </div> -->
-                  </div>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/g-apoio-cvv.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html"
-                        >
-                          CVV
-                        </a>
-                      </h4>
-                      <p class="">
-                        Centro de Valurização da Vida realiza apoio emocional e
-                        prevenção do suicídio, atendendo voluntária e
-                        gratuitamen- te todas as pessoas que querem e precisam
-                        conversar.
-                      </p>
-                    </div>
-                    <!-- <div class="card-read-more">
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/g-apoio-cvv.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="http://www.fostrap.com/2016/02/awesome-material-design-responsive-menu.html">
+                        CVV
+                      </a>
+                    </h4>
+                    <p class="">
+                      Centro de Valurização da Vida realiza apoio emocional e
+                      prevenção do suicídio, atendendo voluntária e
+                      gratuitamen- te todas as pessoas que querem e precisam
+                      conversar.
+                    </p>
+                  </div>
+                  <!-- <div class="card-read-more">
                       <a
                         href="https://codepen.io/wisnust10/full/ZWERZK/"
                         class="btn btn-link btn-block"
@@ -296,103 +255,73 @@
                         Leia mais
                       </a>
                     </div> -->
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/g-apoio-diskardec.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                        DisKardec
+                      </a>
+                    </h4>
+                    <p class="">
+                      DisKardec é um serviço gratuito disponível para todas as
+                      pessoas. Realizando atendimento fraterno, auxiliando
+                      quem precisa desabafar ou apenas conversar.
+                    </p>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/g-apoio-diskardec.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        >
-                          DisKardec
-                        </a>
-                      </h4>
-                      <p class="">
-                        DisKardec é um serviço gratuito disponível para todas as
-                        pessoas. Realizando atendimento fraterno, auxiliando
-                        quem precisa desabafar ou apenas conversar.
-                      </p>
-                    </div>
-                    <!-- <div class="card-read-more">
-                      <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        class="btn btn-link btn-block"
-                      >
-                        Leia mais
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <div class="card">
+                  <a class="img-card">
+                    <img src="assets/g-apoio-cavida.png" />
+                  </a>
+                  <div class="card-content">
+                    <h4 class="card-title">
+                      <a href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html">
+                        CAVIDA
                       </a>
-                    </div> -->
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                  <div class="card">
-                    <a class="img-card">
-                      <img src="assets/g-apoio-cavida.png" />
-                    </a>
-                    <div class="card-content">
-                      <h4 class="card-title">
-                        <a
-                          href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        >
-                          CAVIDA
-                        </a>
-                      </h4>
-                      <p class="">
-                        O Centro de Amor à Vida é uma Organização Não
-                        Governamental. O objetivo da instituição é atender
-                        pessoas vulneráveis emocionalmente que apresentem
-                        depressão...
-                      </p>
-                    </div>
-                    <!-- <div class="card-read-more">
-                      <a
-                        href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                        class="btn btn-link btn-block"
-                      >
-                        Leia mais
-                      </a>
-                    </div> -->
+                    </h4>
+                    <p class="">
+                      O Centro de Amor à Vida é uma Organização Não
+                      Governamental. O objetivo da instituição é atender
+                      pessoas vulneráveis emocionalmente que apresentem
+                      depressão...
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <!--********************* Footer *********************-->
-    <footer>
-      <div class="footer__esquerdo">
-        <img src="assets/logo-azul 2.png" alt="" />
-        <h2 class="atribuicoes__title">Atribuições</h2>
-        <div class="atribuicoes">
-          <ul class="links__atribuicoes">
-            <li>
-              <a href="https://br.freepik.com/vetores/pessoas"
-                >Pessoas vetor criado por pch.vector - br.freepik.com</a
-              >
-            </li>
-            <li>
-              <a href="https://br.freepik.com/vetores/pessoas"
-                >Pessoas vetor criado por pch.vector - br.freepik.com</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=29270&t=resultados"
-                >IBGE - Pesquisa Nacional de Saúde</a
-              >
-            </li>
-          </ul>
-        </div>
+  <!--********************* Footer *********************-->
+  <footer>
+    <div id="index-contato" class="footer__esquerdo">
+      <img src="assets/logo-azul 2.png" alt="" />
+      <h2 class="atribuicoes__title">Atribuições</h2>
+      <div class="atribuicoes">
+        <ul class="links__atribuicoes">
+          <li>
+            <a
+              href="https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=29270&t=resultados">IBGE
+              - Pesquisa Nacional de Saúde</a>
+          </li>
+        </ul>
       </div>
-      <div class="footer__direito">
-        <img src="./assets/woman 1.png" alt="" />
-      </div>
-    </footer>
-  </body>
+    </div>
+    <div class="footer__direito">
+      <img src="./assets/woman 1.png" alt="" />
+    </div>
+  </footer>
+</body>
+
 </html>
